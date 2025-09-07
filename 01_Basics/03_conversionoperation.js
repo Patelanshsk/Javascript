@@ -21,7 +21,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "Ansh" => true
 
-// For String
+//    For String
 
 let someNumber = 47
 
