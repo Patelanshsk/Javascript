@@ -9,6 +9,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
+
 const id = Symbol('47')
 const anotherId = Symbol('47')
 
