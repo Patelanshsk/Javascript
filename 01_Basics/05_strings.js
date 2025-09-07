@@ -41,6 +41,12 @@ console.log(url.includes('20%'));
 
 console.log(gameName.split('-'));
 
+    let text = "Hello world";
+    console.log(text.startsWith("Hello")); 
+    console.log(text.startsWith("Helljo")); 
+    console.log(text.endsWith("world")); 
+    console.log(text.endsWith("worlds")); 
+
 
 
 
