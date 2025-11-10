@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Ex</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #414141;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Code With Ansh</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+  </body>
+  <script>
+    const sayDate = function () {
+      console.log("pari", Date.now());
+    };
+
+    const intervalId = setInterval(sayDate, 1000, "Hii");
+
+    document.querySelector("#start").addEventListener("click", function () {
+      setInterval(intervalId);
+      console.log("Started");
+    });
+
+    document.querySelector("#stop").addEventListener("click", function () {
+      clearInterval(intervalId);
+      console.log("Stoped");
+    });
+  </script>
+</html>
